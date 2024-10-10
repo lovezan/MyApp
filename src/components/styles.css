@@ -1,0 +1,15 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  @keyframes liveAnimation {
+    0% { opacity: 0.5; }
+    50% { opacity: 1; }
+    100% { opacity: 0.5; }
+  }
+  
+  .live-text {
+    animation: liveAnimation 1.5s infinite;
+    color: #ff0000; /* Optional: You can choose a color for the "live" effect */
+  }
+  
